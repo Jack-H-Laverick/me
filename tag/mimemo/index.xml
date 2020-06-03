@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MiMeMo | Dr Jack H Laverick</title>
+    <link>/me/tag/mimemo/</link>
+      <atom:link href="/me/tag/mimemo/index.xml" rel="self" type="application/rss+xml" />
+    <description>MiMeMo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>MiMeMo</title>
+      <link>/me/tag/mimemo/</link>
+    </image>
+    
+    <item>
+      <title>MiMeMo Barents Sea</title>
+      <link>/me/project/mimemo-barents-sea/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/me/project/mimemo-barents-sea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiMeMo Greenland</title>
+      <link>/me/project/mimemo-greenland/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/me/project/mimemo-greenland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R-package</title>
+      <link>/me/project/mimemo.tools/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/me/project/mimemo.tools/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
