@@ -21,14 +21,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/me/project/mesophotic.org/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/me/project/mesophotic.org/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Internal Project</title>
       <link>/me/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -70,6 +62,14 @@
       <link>/me/project/mimemo.tools/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/me/project/mimemo.tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>/me/project/mesophotic.org/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/me/project/mesophotic.org/</guid>
       <description></description>
     </item>
     
