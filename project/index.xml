@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Academic</title>
+    <title>Projects | Dr Jack H Laverick</title>
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title></title>
+      <title>Barents Sea ecosystem model</title>
+      <link>/project/barents-sea/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/barents-sea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GO-Jelly</title>
       <link>/project/go-jelly/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/go-jelly/</guid>
@@ -21,23 +29,15 @@
     </item>
     
     <item>
-      <title>MiMeMo Barents Sea</title>
-      <link>/project/mimemo-barents-sea/</link>
+      <title>Greenland Sea ecosystem model</title>
+      <link>/project/greenland/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/mimemo-barents-sea/</guid>
+      <guid>/project/greenland/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MiMeMo Greenland</title>
-      <link>/project/mimemo-greenland/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/mimemo-greenland/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R-package</title>
+      <title>MCE</title>
       <link>/project/mce-package/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/mce-package/</guid>
@@ -45,7 +45,23 @@
     </item>
     
     <item>
-      <title>R-package</title>
+      <title>mesophotic.org</title>
+      <link>/project/mesophotic.org/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/mesophotic.org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiMeMo Sediments</title>
+      <link>/project/mimemo-sediments/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/mimemo-sediments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiMeMo.tools</title>
       <link>/project/mimemo.tools/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/mimemo.tools/</guid>
@@ -53,10 +69,18 @@
     </item>
     
     <item>
-      <title>Website</title>
-      <link>/project/mesophotic.org/</link>
+      <title>nemomedusR</title>
+      <link>/project/nemomedusr/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/mesophotic.org/</guid>
+      <guid>/project/nemomedusr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slabR</title>
+      <link>/project/slabr/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/slabr/</guid>
       <description></description>
     </item>
     

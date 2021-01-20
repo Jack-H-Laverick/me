@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MiMeMo | Academic</title>
+    <title>MiMeMo | Dr Jack H Laverick</title>
     <link>/tag/mimemo/</link>
       <atom:link href="/tag/mimemo/index.xml" rel="self" type="application/rss+xml" />
     <description>MiMeMo</description>
@@ -22,26 +22,50 @@
     </item>
     
     <item>
-      <title>MiMeMo Barents Sea</title>
-      <link>/project/mimemo-barents-sea/</link>
+      <title>Barents Sea ecosystem model</title>
+      <link>/project/barents-sea/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/mimemo-barents-sea/</guid>
+      <guid>/project/barents-sea/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MiMeMo Greenland</title>
-      <link>/project/mimemo-greenland/</link>
+      <title>Greenland Sea ecosystem model</title>
+      <link>/project/greenland/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/mimemo-greenland/</guid>
+      <guid>/project/greenland/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R-package</title>
+      <title>MiMeMo Sediments</title>
+      <link>/project/mimemo-sediments/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/mimemo-sediments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiMeMo.tools</title>
       <link>/project/mimemo.tools/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/mimemo.tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nemomedusR</title>
+      <link>/project/nemomedusr/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/nemomedusr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slabR</title>
+      <link>/project/slabr/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/slabr/</guid>
       <description></description>
     </item>
     

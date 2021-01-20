@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mesophotic Coral Ecosystems | Academic</title>
+    <title>Mesophotic Coral Ecosystems | Dr Jack H Laverick</title>
     <link>/tag/mesophotic-coral-ecosystems/</link>
       <atom:link href="/tag/mesophotic-coral-ecosystems/index.xml" rel="self" type="application/rss+xml" />
     <description>Mesophotic Coral Ecosystems</description>
@@ -139,7 +139,7 @@
     </item>
     
     <item>
-      <title>R-package</title>
+      <title>MCE</title>
       <link>/project/mce-package/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/mce-package/</guid>
@@ -147,7 +147,7 @@
     </item>
     
     <item>
-      <title>Website</title>
+      <title>mesophotic.org</title>
       <link>/project/mesophotic.org/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/mesophotic.org/</guid>

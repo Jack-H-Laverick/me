@@ -278,9 +278,12 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
   <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="twitter:site" content="@JackHLaverick">
+  <meta property="twitter:creator" content="@JackHLaverick">
+  
+  <meta property="og:site_name" content="Dr Jack H Laverick">
   <meta property="og:url" content="/post/writing-technical-content/">
-  <meta property="og:title" content="Writing technical content in Academic | Academic">
+  <meta property="og:title" content="Writing technical content in Academic | Dr Jack H Laverick">
   <meta property="og:description" content="Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
 Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation."><meta property="og:image" content="/post/writing-technical-content/featured.jpg">
   <meta property="twitter:image" content="/post/writing-technical-content/featured.jpg"><meta property="og:locale" content="en-us">
@@ -330,7 +333,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
   "publisher": {
     "@type": "Organization",
-    "name": "Academic",
+    "name": "University of Strathclyde",
     "logo": {
       "@type": "ImageObject",
       "url": "/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
@@ -354,7 +357,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-  <title>Writing technical content in Academic | Academic</title>
+  <title>Writing technical content in Academic | Dr Jack H Laverick</title>
 
 </head>
 
@@ -427,7 +430,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Dr Jack H Laverick</a>
     </div>
     
 
@@ -440,7 +443,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Dr Jack H Laverick</a>
     </div>
     
 
@@ -483,7 +486,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#hero"><span>Demo</span></a>
+          <a class="nav-link " href="/#land"><span>Welcome</span></a>
         </li>
 
         
@@ -594,74 +597,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#featured"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
         </li>
 
         
@@ -810,7 +746,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    5 min read
   </span>
   
 
@@ -872,11 +808,33 @@ data.head()
 data = pd.read_csv(&quot;data.csv&quot;)
 data.head()
 </code></pre>
+<h3 id="charts">Charts</h3>
+<p>Academic supports the popular <a href="https://plot.ly/" target="_blank" rel="noopener">Plotly</a> chart format.</p>
+<p>Save your Plotly JSON in your page folder, for example <code>chart.json</code>, and then add the <code>{{&lt; chart data=&quot;chart&quot; &gt;}}</code> shortcode where you would like the chart to appear.</p>
+<p>Demo:</p>
+
+
+<div id="chart-654197382" class="chart"></div>
+<script>
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === 'undefined' ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json("./line-chart.json", function(chart) {
+        Plotly.plot('chart-654197382', chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+</script>
+<p>You might also find the <a href="http://plotly-json-editor.getforge.io/" target="_blank" rel="noopener">Plotly JSON Editor</a> useful.</p>
 <h3 id="math">Math</h3>
 <p>Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the <code>math</code> option in your <code>config/_default/params.toml</code> file.</p>
 <p>To render <em>inline</em> or <em>block</em> math, wrap your LaTeX math with <code>$...$</code> or <code>$$...$$</code>, respectively.</p>
 <p>Example <strong>math block</strong>:</p>
-<pre><code class="language-tex">$$\gamma_{n} = \frac{ 
+<pre><code class="language-latex">$$\gamma_{n} = \frac{ 
 \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
 \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
 {\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
@@ -885,7 +843,7 @@ data.head()
 <p>$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$</p>
 <p>Example <strong>inline math</strong> <code>$\nabla F(\mathbf{x}_{n})$</code> renders as $\nabla F(\mathbf{x}_{n})$.</p>
 <p>Example <strong>multi-line math</strong> using the <code>\\\\</code> math linebreak:</p>
-<pre><code class="language-tex">$$f(k;p_0^*) = \begin{cases} p_0^* &amp; \text{if }k=1, \\\\
+<pre><code class="language-latex">$$f(k;p_0^*) = \begin{cases} p_0^* &amp; \text{if }k=1, \\\\
 1-p_0^* &amp; \text {if }k=0.\end{cases}$$
 </code></pre>
 <p>renders as</p>
@@ -1051,8 +1009,8 @@ Crash --&gt; [*]
 </tr>
 </tbody>
 </table>
-<h3 id="asides">Asides</h3>
-<p>Academic supports a <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts" target="_blank" rel="noopener">shortcode for asides</a>, also referred to as <em>notices</em>, <em>hints</em>, or <em>alerts</em>. By wrapping a paragraph in <code>{{% alert note %}} ... {{% /alert %}}</code>, it will render as an aside.</p>
+<h3 id="callouts">Callouts</h3>
+<p>Academic supports a <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts" target="_blank" rel="noopener">shortcode for callouts</a>, also referred to as <em>asides</em>, <em>hints</em>, or <em>alerts</em>. By wrapping a paragraph in <code>{{% alert note %}} ... {{% /alert %}}</code>, it will render as an aside.</p>
 <pre><code class="language-markdown">{{% alert note %}}
 A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 {{% /alert %}}
@@ -1063,6 +1021,17 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
     A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
   </div>
 </div>
+<h3 id="spoilers">Spoilers</h3>
+<p>Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.</p>
+<pre><code class="language-markdown">{{&lt; spoiler text=&quot;Click to view the spoiler&quot; &gt;}}
+You found me!
+{{&lt; /spoiler &gt;}}
+</code></pre>
+<p>renders as</p>
+<details class="spoiler "  id="spoiler-2">
+  <summary>Click to view the spoiler</summary>
+  <p>You found me!</p>
+</details>
 <h3 id="icons">Icons</h3>
 <p>Academic enables you to use a wide range of <a href="https://sourcethemes.com/academic/docs/page-builder/#icons" target="_blank" rel="noopener">icons from <em>Font Awesome</em> and <em>Academicons</em></a> in addition to <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis" target="_blank" rel="noopener">emojis</a>.</p>
 <p>Here are some examples using the <code>icon</code> shortcode to render icons:</p>
@@ -1459,6 +1428,11 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
     
 
     
+    
+    <script>
+      window.PlotlyConfig = {MathJaxConfig: 'local'};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.55.2/plotly.min.js" integrity="sha512-gttPT9uTUiaLBj6XZdcB0ydKXiDaBwstInkN4Qvp1Nz3iwXNc8TTQplIEPIGxyJBDqERjwkKxf2OyO47/0EHbQ==" crossorigin="anonymous"></script>
     
 
     
